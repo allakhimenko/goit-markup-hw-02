@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./css/common.css">
 </head>
 
 <body>
     <header>
         <nav> 
-        <a href="">WebStudio</a> 
-            <ul>
+        <a href="" class="logo"><span class="logo-web">Web</span>Studio</a> 
+            <ul class="nav-links">
                 <li><a href="./index.html">Студия</a></li>
                 <li><a href="./portfolio.html">Портфолио</a></li>
                 <li><a href="./contacts.html">Контакты</a></li>
             </ul>
 
-            <ul>
+            <ul class="contacts">
                 <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
@@ -24,14 +27,14 @@
     </header>
     
     <main>
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button>Заказать услугу</button>
+        <section class="hero">
+            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+            <button class="button primary">Заказать услугу</button>
         </section>
 
-        <section>
-            <h2>Наши преимущества</h2>
-            <ul>
+        <section class="features">
+            <h2 class="feature-title">Особенности</h2>
+            <ul class="featrue-items">
                 <li>
                     <h3>Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -55,7 +58,7 @@
         </section>
 
         <section>
-            <h2>Чем мы занимаемся</h2>
+            <h2 class="section-title">Чем мы занимаемся</h2>
             <ul>
                 <li><img src="./images/img1.jpg" alt="" width="370"></li>
                 <li><img src="./images/img2.jpg" alt="" width="370"></li>
@@ -64,8 +67,8 @@
         </section>
 
         <section>
-            <h2>Наша команда</h2>
-            <ul>
+            <h2 class="section-title">Наша команда</h2>
+            <ul class="cards">
                 <li>
                     <img src="./images/photo1.jpg" alt="" width="270">
                     <h3>Игорь Демьяненко</h3>
@@ -94,11 +97,11 @@
     </main>
 
     <footer>
-        <a href="">WebStudio</a> 
+        <a href="" class="logo"><span class="logo-web">Web</span>Studio</a> 
         <address>
-            г. Киев, пр-т Леси Украинки, 26<br>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a><br>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <span class="address">г. Киев, пр-т Леси Украинки, 26</span><br>
+            <a href="mailto:info@devstudio.com" class="address-contacts">info@devstudio.com</a><br>
+            <a href="tel:+380961111111" class="address-contacts">+38 096 111 11 11</a>
         </address>
     </footer>
 </body>
